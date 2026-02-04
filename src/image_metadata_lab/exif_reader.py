@@ -4,6 +4,8 @@ from typing import Any, Dict, Optional, Tuple
 
 from PIL import Image
 from PIL.ExifTags import GPSTAGS, TAGS
+from pillow_heif import register_heif_opener
+register_heif_opener()
 
 @dataclass(frozen=True)
 class ExifSummary:
