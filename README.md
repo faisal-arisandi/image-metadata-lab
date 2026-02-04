@@ -1,5 +1,5 @@
 # Image Metadata Lab
-This project is used to read EXIF metadata from an image, extract date time, latitude, and longitude, also to perform simple image processing (convert image into grayscale)
+This project is used to read EXIF metadata from an image, extract date time, latitude, and longitude
 
 ### Preparation
 1. Activate the virtual environment by running this command:
@@ -18,7 +18,7 @@ This project is used to read EXIF metadata from an image, extract date time, lat
     For example, if the filename is `photo.jpg`, then the file location will be `data/input/photo.jpg`
 2. Run this command:
     ```
-    python -m image_metadata_lab.cli --input data/input/photo.jpg --output data/output/sample_gray.jpg
+    python -m image_metadata_lab.cli --input data/input/photo.jpg
     ```
 
 **Using Jupyter Lab**
